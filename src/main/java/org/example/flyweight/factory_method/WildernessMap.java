@@ -1,6 +1,8 @@
-package factory_method;
+package org.example.flyweight.factory_method;
 
-import factory_method.tiles.*;
+import org.example.flyweight.factory_method.tiles.Forest;
+import org.example.flyweight.factory_method.tiles.Swamp;
+import org.example.flyweight.factory_method.tiles.Water;
 
 import java.util.Random;
 

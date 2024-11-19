@@ -1,8 +1,7 @@
 module org.example.flyweight {
     requires javafx.controls;
-    requires javafx.fxml;
+    requires javafx.graphics;
 
-
-    opens org.example.flyweight to javafx.fxml;
-    exports org.example.flyweight;
+    exports org.example.flyweight.factory_method;  // Make sure your package is exported
+    opens org.example.flyweight.factory_method to javafx.graphics;  // Open for reflection
 }
